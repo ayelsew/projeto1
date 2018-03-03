@@ -1,23 +1,77 @@
-html{
-    width: 100%;
-    height: 100%;
+html {
+  width: 100%;
+  height: 100%;
 }
-body{
-    margin: 0;
-    height: inherit;
-    width: inherit;
-}
-
-header{
-    height: 100%;
-    width: 100%;
-    position: relative
+body {
+  margin: 0;
+  height: inherit;
+  width: inherit;
 }
 
-.content-search-header{
-    position: absolute;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #4a4a49cc;
+header {
+  width: 100%;
+  position: relative;
+  background: no-repeat;
+  background-image: none;
+  background-attachment: scroll;
+  background-size: auto auto;
+  background-image: none;
+  background-attachment: scroll;
+  background-size: auto auto;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url("../image/bg1.jpg");
+  height: 100%;
+}
+
+.content-search-header {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000c;
+}
+
+.title-and-search {
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  top: 30%;
+  position: relative;
+  height: 30%;
+}
+
+.title-and-search > h1 {
+  font-size: 4rem;
+  color: aliceblue;
+  cursor: not-allowed;
+}
+.title-and-search > form {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+.title-and-search > form > input {
+  padding: 0;
+  height: 100%;
+  border: none;
+  width: 80%;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.title-and-search > form > button {
+  width: 20%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: #26d126;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+.title-and-search > form > button:hover{
+  background-color: #23b623;
+  transition-duration: 0.5s;
 }
