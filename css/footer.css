@@ -1,0 +1,36 @@
+footer {
+  width: 98%;
+  height: 30%;
+  background-color: rgb(27, 27, 27);
+  padding: 1%;
+  display: flex;
+}
+
+footer > div {
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+.title-footer {
+  margin: 0;
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+  margin-bottom: 4%;
+}
+
+.imgvsc {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.imgeh {
+  width: 40%;
+}
+.imgmastertech {
+  width: 33%;
+  margin: 0% auto;
+  display: block;
+}
