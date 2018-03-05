@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
       o += 0.1;
     }
   }, 200);
+
 });
 function accessURL(l) {
   window.open(l, "_blank");

@@ -23,7 +23,11 @@ header {
   background-image: url("../image/bg1.jpg");
   height: 100%;
 }
-
+main{
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
 .ver-mais{
   color: #f2f2f2;
   border: 1px;
