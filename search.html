@@ -4,49 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="script/search.js">
     <link rel="stylesheet" href="css/search.css">
     <title>Document</title>
 </head>
 <body>
+        <nav class="nav">
+        
+
+                <ul class="menu">
+                    <li class="link">
+                        <a href="#">Inicio</a>
+                        <div class="azul"></div>
+                        <div class="cinza"></div>
+                    </li>
+            
+                    <li class="link">
+                            <a href="#">Ranking Site</a>
+                            <div class="azul"></div>
+                            <div class="cinza"></div>
+                    </li>
+            
+                          
+                    <li class="link">
+                            <a href="#">Addfake</a>
+                            <div class="azul"></div>
+                            <div class="cinza"></div>
+                    </li>
+            
+                    <li class="link">
+                            <a href="#">Report</a>
+                            <div class="azul"></div>
+                            <div class="cinza"></div>
+                    </li>
+                </ul>
+                                    
+</nav>
     <header>
-        <div>
+        <div class="titulo-pg">
         <h1>Notícias Fake</h1>
     </div>
     <div class="search">        
         <div class="filtros">
-            <input placeholder="Data" id="teste" name="teste-filtro" type="text" list="teste_id" >
-            <datalist id="teste_id">
-                <option value="coxinha">
-                <option value="abobora">
-                <option value="coco">
-                <option value="batata">
-            </datalist>
-            <input placeholder="Site" id="teste" name="teste-filtro" type="text" list="teste_id" >
-            <datalist id="teste_id">
-                <option value="coxinha">
-                <option value="abobora">
-                <option value="coco">
-                <option value="batata">
+            <input placeholder="Data" id="data" name="data-filtro" type="date" >
+            <input placeholder="Site" id="site-filtro" name="site-filtro" type="text" list="sites_id" >
+            <datalist id="sites_id">
+                <option value="G1">
+                <option value="R7">
+                <option value="UOL">
+                <option value="Estadão">
             </datalist>            
         </div>
         <div class="filtros-2">
-                <input placeholder="Classificação" id="teste" name="teste-filtro" type="text" list="teste_id" >
-                <datalist id="teste_id">
-                    <option value="coxinha">
-                    <option value="abobora">
-                    <option value="coco">
-                    <option value="batata">
+                <input placeholder="Classificação" id="classificacao-filtro" name="classificacao-filtro" type="text" list="classificacao_id" >
+                <datalist id="classificacao_id">
+                    <option value="Confiável">
+                    <option value="Duvidoso">
+                    <option value="Não confiável">
                 </datalist>
-                <input placeholder="Autor" id="teste" name="teste-filtro" type="text" list="teste_id" >
-                <datalist id="teste_id">
-                    <option value="coxinha">
-                    <option value="abobora">
-                    <option value="coco">
-                    <option value="batata">
+                <input placeholder="Autor" id="autor-filtro" name="autor-filtro" type="text" list="autor_id" >
+                <datalist id="autor_id">
+                    <option value="José Rabino">
+                    <option value="Silvio Bonifácio">
+                    <option value="Adolfo Fontes">
+                    <option value="Cleber Silva">
                 </datalist>            
             </div>
-            <button>Filtrar</button>
+            <button class="btn-filtro">Filtrar</button>
         <input placeholder="Pesquise a notícia" id="teste2" name="teste-search" type="text" list="teste-search_id" >
     </div>
 
@@ -57,23 +83,23 @@
                         <div class="card">
                         <div>
                             <button class="btn">
-                            <img src="https://abrilveja.files.wordpress.com/2017/05/noticc81cia-falsa-1.jpg?quality=70&strip=info&w=650" alt="">
+                            <img src="http://www.deolhonews.com.br/wp-content/uploads/2017/05/655678779879576546587687687-770x400-678x381.jpg" alt="" >
                             </button>
                             </div>
                             <div class="textos">                              
-                                    <p class="titulo-card"> titulo da bagaceira</p>
-                                    <p class="texto-card"> texto breve da noticia qweqweqeqeqweqweqeqeqeqeqe</p>
+                                    <p class="titulo-card">Criador da Baleia Azul é espancado e quase morre</p>
+                                    <p class="texto-card">Matéria publicada pela deolhonews</p>
                         </div>
                         </div>
                         <div class="card">
                             <div class="btn-container">
                                 <button class="btn">
-                                <img src="https://abrilveja.files.wordpress.com/2017/05/noticc81cia-falsa-1.jpg?quality=70&strip=info&w=650" alt="">
+                                <img src="https://abrilveja.files.wordpress.com/2018/02/exercito-x-pm.jpg?quality=70&strip=info&w=654&h=436&crop=1%20654w,%20https://abrilveja.files.wordpress.com/2018/02/exercito-x-pm.jpg?quality=70&strip=info&w=150&h=100&crop=1%20150w,%20https://abrilveja.files.wordpress.com/2018/02/exercito-x-pm.jpg?quality=70&strip=info&w=300&h=200&crop=1%20300w,%20https://abrilveja.files.wordpress.com/2018/02/exercito-x-pm.jpg?quality=70&strip=info&w=768&h=512&crop=1%20768w,%20https://abrilveja.files.wordpress.com/2018/02/exercito-x-pm.jpg?quality=70&strip=info&w=650&h=433&crop=1%20650w,%20https://abrilveja.files.wordpress.com/2018/02/exercito-x-pm.jpg?quality=70&strip=info%201125w" alt="">
                                 </button>
                             </div>
                                 <div class="textos">                              
-                                        <p class="titulo-card"> titulo da bagaceira</p>
-                                        <p class="texto-card"> texto breve da noticia qweqweqeqeqweqweqeqeqeqeqe</p>
+                                        <p class="titulo-card">Soldado que agrediu traficante foi afastado a pedido da OAB-RJ?</p>
+                                        <p class="texto-card">Notícia viralizada no Facebook</p>
                             </div>
                         </div>
                     </div>
@@ -81,29 +107,40 @@
                             <div class="card">
                             <div>
                                 <button class="btn">
-                                <img src="https://abrilveja.files.wordpress.com/2017/05/noticc81cia-falsa-1.jpg?quality=70&strip=info&w=650" alt="">
+                                <img src="https://abrilveja.files.wordpress.com/2018/02/brasil-pirulito-boato-20180227-001.jpg?quality=70&strip=info&w=654&h=436&crop=1" alt="">
                                 </button>
                                 </div>
                                 <div class="textos">                              
-                                        <p class="titulo-card"> titulo da bagaceira</p>
-                                        <p class="texto-card"> texto breve da noticia qweqweqeqeqweqweqeqeqeqeqe</p>
+                                        <p class="titulo-card">Pirulito com energético tem causado intoxicação em crianças?</p>
+                                        <p class="texto-card">Notícia compartilhada pelo Whatsapp</p>
                             </div>
                             </div>
                             <div class="card">
                                 <div class="btn-container">
                                     <button class="btn">
-                                    <img src="https://abrilveja.files.wordpress.com/2017/05/noticc81cia-falsa-1.jpg?quality=70&strip=info&w=650" alt="">
+                                    <img src="https://abrilveja.files.wordpress.com/2018/02/facebook-rj.jpg?quality=70&strip=info&w=654&h=436&crop=1" alt="">
                                     </button>
                                 </div>
                                     <div class="textos">                              
-                                            <p class="titulo-card"> titulo da bagaceira</p>
-                                            <p class="texto-card"> texto breve da noticia qweqweqeqeqweqweqeqeqeqeqe</p>
+                                            <p class="titulo-card">Foto mostra soldados revistando crianças em intervenção no RJ?</p>
+                                            <p class="texto-card">Notícia publicada e viralizada no Facebook</p>
                                 </div>
                             </div>
                     </div>
                     </div>
                 </div>
             </section>
+            <footer>
+                    <div>
+                        <h6 class="title-footer">Desenvolvido com </h6>
+                        <img class="imgvsc" src="image/vsc.png">
+                    </div>
+                    <div>
+                        <h6 class="title-footer">Apoio</h6>
+                        <img class="imgeh" src="image/eh.png">
+                        <img class="imgmastertech" src="image/mastertech.png">
+                    </div>
+                </footer>
     
 </body>
 </html>

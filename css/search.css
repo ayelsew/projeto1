@@ -10,7 +10,9 @@ body{
 }
 
 header{
-    width: 100%;
+    width: 95%;
+    overflow: hidden;
+    padding-top: 3%;
     margin-left: 11%;
     justify-content: center;
 }
@@ -20,17 +22,40 @@ header h1{
     font-size: 290%;
 }
 
+.btn-filtro{
+    color: #f2f2f2;
+    border: 0;
+    background-color: #515e63;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0px 3px 15px -3px black;
+    padding: 0.5%;
+    margin-left: 0.5%;
+  }
+  
+
+.titulo-pg{
+    margin: 0;
+    padding: 0;
+}
+
 .filtros > input{
     width: 100%;
+    height: 33%;
+    margin-top: 2%;
 }
 
 
 .filtros-2 > input{
     width: 100%;
+    height: 31%;
+    margin-top: 2%;
 }
 
 #teste2{
-    margin-left: 11%;
+    margin-left: 31%;
+    width: 31%;
     height: 2%;
 }
 
@@ -39,11 +64,12 @@ header h1{
 }
 
 .filtros-2{
-    width: 25%; 
+    width: 10%; 
+    margin-left: 1%;    
 }
 
 .filtros{
-    width: 25%;
+    width: 10%;
 }
 
 .ver-mais{
@@ -98,7 +124,7 @@ header h1{
 
   .titulo-card{
     margin-left: 6%;
-    font-size: 150%;
+    font-size: 132%;
     font-weight: bolder;
   }
 
@@ -108,12 +134,11 @@ header h1{
 
   .textos{
       width: 100%;
-      background-color: #ffffff;
   }
 
   .texto-card{
     margin-left: 6%;      
-    font-size: 100%;
+    font-size: 90%;
   }
 
   .box-div img{
@@ -122,9 +147,12 @@ header h1{
   
   .card{
     width: 50%;
+    height: 50%;
+    background-color: #ffffff;
     display: flex;
     margin-top: 2%;
     margin-right: 4%;
     margin-left: 4%;
     margin-bottom: 2%;
   }
+
