@@ -2,13 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/report.css">
     <script src="script/report.js"></script>
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
-    
+        <nav class="nav">
+        
+
+                <ul class="menu">
+                    <li class="link">
+                        <a href="#">Inicio</a>
+                        <div class="azul"></div>
+                        <div class="cinza"></div>
+                    </li>
+            
+                    <li class="link">
+                            <a href="#">Ranking Site</a>
+                            <div class="azul"></div>
+                            <div class="cinza"></div>
+                    </li>
+            
+                          
+                    <li class="link">
+                            <a href="#">Addfake</a>
+                            <div class="azul"></div>
+                            <div class="cinza"></div>
+                    </li>
+            
+                    <li class="link">
+                            <a href="#">Report</a>
+                            <div class="azul"></div>
+                            <div class="cinza"></div>
+                    </li>
+                </ul>
+                                    
+</nav>
+            <div class="PlanoDeFundo">
+                    <form class="formulario" action="/pagina-processa-dados-do-form" method="post">
+            
+                        <label class="largura" for="nome">Nome:</label>
+                        <input class="largura altura" type="text" id="nome" name="usuario_nome" />
+                    
+                        <label class="largura" for="msg">Problema:</label>
+                        <textarea class="largura altura" id="msg" name="usuario_msg"></textarea>
+                    
+                        <label class="largura" for="msg">Descrição:</label>
+                        <textarea class="largura altura" id="msg" name="usuario_msg"></textarea>
+                    
+                        <label class="largura" for="email">E-mail:</label>
+                        <input class="largura altura" type="email" id="email" name="usuario_email" />
+                    
+                        <label class="largura" for="categoria">Categoria</label>
+                    <select class= "selecao" name="problemas">
+                            <option value="volvo">Link errado</option>
+                            <option value="saab">Notícia verdadeira</option>
+                            <option value="fiat">Site confiável </option>
+                            <option value="audi">Outros</option>
+                   </select>
+                     <div class="button">
+                            <button class="butao" type="submit">Enviar</button>
+                    </div>
+        
+                </form>
+            
+
+            </div>
 </body>
 </html>
